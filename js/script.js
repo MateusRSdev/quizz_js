@@ -104,3 +104,4 @@ function CreateQuestion(i) {
 }
 
 init()
+CreateQuestion()
