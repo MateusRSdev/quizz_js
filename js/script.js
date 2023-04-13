@@ -107,6 +107,8 @@ function CreateQuestion(i) {
     const questionText = question.querySelector("#question-text");
     const questionNumber = question.querySelector("#question-number");
 
+    console.log(question[i].question);
+
     questionText.textContent = question[i].question;
     questionNumber.textContent = i + 1;
 }
