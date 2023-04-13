@@ -125,8 +125,23 @@ function CreateQuestion(i) {
         console.log(answerTemplate);
 
         answersBox.appendChild(answerTemplate);
+
+        // adiciona o evento de click ao botao
+        answerTemplate.addEventListener("click",function(){
+
+        })
+
+        
     })
 
+    // incrementar o numero da questao
+    actualQuestion++;
+
+}
+
+// verificando resposta do usuario
+function checkAnswer(btn){
+    
 }
 
 init()
