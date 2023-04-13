@@ -81,6 +81,7 @@ let questions = [
 // substituicao do quizz para a primeira poergunta
 function init() {
     // criar a primeira pergunta
+    CreateQuestion(0);
 }
 
 // cria uma pergunta
@@ -104,4 +105,3 @@ function CreateQuestion(i) {
 }
 
 init()
-CreateQuestion()
