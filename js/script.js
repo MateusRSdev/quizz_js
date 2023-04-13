@@ -108,7 +108,7 @@ function CreateQuestion(i) {
     questions[i].answers.forEach(function(answer, i){
 
         // cria o template do botao do quizz
-        const answerTemplate = document.querySelector("#answer-template").cloneNode(true)
+        const answerTemplate = document.querySelector(".answer-template").cloneNode(true)
 
         console.log(answerTemplate);
     })
