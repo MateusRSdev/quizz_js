@@ -9,7 +9,7 @@ let actualQuestion = 0;
 
 // perguntas
 
-const questions = [
+let questions = [
     question = "A linguagem PHP foi desenvolvida para qual fim?",
     answers = [
         {
