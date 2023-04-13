@@ -112,11 +112,19 @@ function CreateQuestion(i) {
 
         const letterBtn = answerTemplate.querySelector(".btn-letter");
         const answerText = answerTemplate.querySelector(".question-answer");
-        
+
         letterBtn.textContent = letters[i];
         answerText.textContent = answer["answer"];
 
+        answerTemplate.setAttribute("correct-answer", answer["correct"]);
+
+        // remover hide e template class
+        answerTemplate.classList.remove("hide")
+        answerTemplate.classList.remove("answer-template")
+
         console.log(answerTemplate);
+
+        answersBox.appendChild(answerTemplate);
     })
 
 }
