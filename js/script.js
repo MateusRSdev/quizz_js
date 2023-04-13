@@ -10,8 +10,8 @@ let actualQuestion = 0;
 // perguntas
 
 let questions = [
-    question = "A linguagem PHP foi desenvolvida para qual fim?",
-    answers = [
+    'question' = "A linguagem PHP foi desenvolvida para qual fim?",
+    'answers' = [
         {
             "answer": "back end",
             "correct": true
@@ -48,8 +48,8 @@ let questions = [
             "correct": false
         },
     ],
-    question = "Qual é o seletor de id no css?",
-    answers = [
+    'question' = "Qual é o seletor de id no css?",
+    'answers' = [
         {
             "answer": "#",
             "correct": true
@@ -67,8 +67,8 @@ let questions = [
             "correct": false
         },
     ],
-    question = "A linguagem PHP foi desenvolvida para qual fim?",
-    answers = [
+    'question' = "A linguagem PHP foi desenvolvida para qual fim?",
+    'answers' = [
         {
             "answer": "back end",
             "correct": true
