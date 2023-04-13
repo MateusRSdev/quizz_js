@@ -110,6 +110,12 @@ function CreateQuestion(i) {
         // cria o template do botao do quizz
         const answerTemplate = document.querySelector(".answer-template").cloneNode(true)
 
+        const letterBtn = answerTemplate.querySelector(".btn-letter");
+        const answerText = answerTemplate.querySelector(".question-answer");
+        
+        letterBtn.textContent = letters[i];
+        answerText.textContent = answer["answer"];
+
         console.log(answerTemplate);
     })
 
