@@ -128,7 +128,7 @@ function CreateQuestion(i) {
 
         // adiciona o evento de click ao botao
         answerTemplate.addEventListener("click",function(){
-
+            checkAnswer(this)
         })
 
         
@@ -141,7 +141,7 @@ function CreateQuestion(i) {
 
 // verificando resposta do usuario
 function checkAnswer(btn){
-    
+    console.log(btn);
 }
 
 init()
