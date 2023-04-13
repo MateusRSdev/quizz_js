@@ -100,7 +100,15 @@ function CreateQuestion(i) {
 
     oldButtons.forEach(function(btn){
         btn.remove();
-    })
+    });
+
+
+    // alterar o texto da pergunta
+    const questionText = question.querySelector("#question-text");
+    const questionNumber = question.querySelector("#question-number");
+
+    questionText.textContent = question[i].question;
+    questionNumber.textContent = i + 1;
 }
 
 init()
