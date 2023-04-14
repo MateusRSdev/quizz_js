@@ -144,4 +144,4 @@ function checkAnswer(btn){
     console.log(btn);
 }
 
-init()
+// init()
